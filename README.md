@@ -1,7 +1,5 @@
 # Automated Downloads Organizer
 
-This is a background-running Python automation tool that keeps the Windows Downloads folder clean. The program monitors the specified path and organizes files into categories (Images, Documents, Music, Others) based on their extensions.
-
 # Features
 **Automated organization:** Scans the folder every 2 hours (customizable).
 **Windows integration:** Can be configured with Task Scheduler for automatic invisible startup.
