@@ -1,13 +1,13 @@
-# Automatikus Letöltés Rendszerező
+# Automated Downloads Organizer
 
-Ez egy háttérben futó Python automatizációs eszköz, amely tisztán tartja a Windows Letöltések mappáját. A program figyeli a megadott útvonalat, és kiterjesztés alapján kategóriákba (Képek, Dokumentumok, Zene, Egyéb) rendezi a fájlokat.
+This is a background-running Python automation tool that keeps the Windows Downloads folder clean. The program monitors the specified path and organizes files into categories (Images, Documents, Music, Others) based on their extensions.
 
-# Funkciók
- **Automatikus rendszerezés:** 2 óránként (beállítható) átvizsgálja a mappát.
- **Windows integráció:** Feladatütemezővel beállítható az automatikus láthatatlan indítás.
+# Features
+**Automated organization:** Scans the folder every 2 hours (customizable).
+**Windows integration:** Can be configured with Task Scheduler for automatic invisible startup.
 
-# Telepítés és használat
-1. Másold le a `rendszerezo.py` fájlt.
-2. Módosítsd a `folder_path` változót a saját felhasználói útvonaladra.
-3. Futtasd a terminálban: `python rendszerezo.py`
-4. (Opcionális) Állítsd be a Windows Feladatütemezőben a folyamatos, láthatatlan futáshoz.
+# Installation and usage
+1. Copy the `rendszerezo.py` file.
+2. Modify the `folder_path` variable to your own user path.
+3. Run it in the terminal: `python rendszerezo.py`
+4. (Optional) Configure it in Windows Task Scheduler for continuous, invisible execution.
